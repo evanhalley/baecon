@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Baecon</string>
+    <string name="baecon_username">Enter your Baecon username</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="new_baecon">New Baecon</string>
+    <string name="super_secret_mode">Enable "Super Secret" Mode</string>
+</resources>

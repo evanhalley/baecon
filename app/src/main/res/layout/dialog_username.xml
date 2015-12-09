@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/username"
+        android:hint="@string/baecon_username"
+        android:layout_marginTop="@dimen/base_margin"
+        android:layout_marginBottom="@dimen/base_margin"
+        android:layout_marginLeft="@dimen/double_margin"
+        android:layout_marginRight="@dimen/double_margin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Switch
+        android:id="@+id/super_secret_mode"
+        android:text="@string/super_secret_mode"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/base_margin"
+        android:layout_marginBottom="@dimen/base_margin"
+        android:layout_marginLeft="@dimen/double_margin"
+        android:layout_marginRight="@dimen/double_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

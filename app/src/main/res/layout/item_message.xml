@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/base_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        tools:text="Yo dawg, I heard you like turtles"
+        android:id="@+id/message_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/message_text_size"
+        android:layout_marginBottom="@dimen/half_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        tools:text="Xzibit"
+        android:id="@+id/sender"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/sender_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/separator_color"
+        android:layout_marginTop="@dimen/half_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_height" />
+
+</LinearLayout>
